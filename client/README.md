@@ -1,2 +1,2 @@
 # Amazon Full Stack Clone
-* using React, Node and Firebase *
+_**using React, Node and Firebase**_
