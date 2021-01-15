@@ -1,10 +1,14 @@
 import React from 'react';
+import Header from './components/header';
+import './css/header.css';
+import Body from './components/body';
+import './css/body.css';
+
 const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Amazon Full Stack Clone</h1>
-      </header>
+      <Header />
+      <Body />
     </div>
   );
 }
