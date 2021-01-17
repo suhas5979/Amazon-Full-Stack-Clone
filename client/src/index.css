@@ -22,6 +22,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.bold{
+  font-weight: 600;
+}
+.mr-10{
+  margin: 10px;
+}
+.mr-5{
+  margin: 5px;
+}
+.pd-10{
+  padding: 10px;
+}
+.pd-5{
+  padding: 5px;
+}
+.fontSize__2rem{
+  font-size: 2rem;
+}
+.__1rem{
+  font-size: 1rem;
+}
+.__8rem{
+  font-size: .8rem;
+}
+.__5rem{
+  font-size: .5rem;
+}
 h1{
   text-align: center;
 }

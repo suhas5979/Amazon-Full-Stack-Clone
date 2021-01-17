@@ -1,10 +1,15 @@
 import React from 'react';
+import Body from '../components/Body';
+import Header from '../components/Header';
+import NavBar from '../components/NavBar';
 import '../css/Home.css';
 const Home = () => {
     return (
-        <div>
-            <h1>Home</h1>
-        </div>
+        <>
+            <Header />
+            <NavBar />
+            <Body />
+        </>
     )
 }
 

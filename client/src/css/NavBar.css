@@ -1,5 +1,27 @@
 /* Nav Bar css styling */
 
-a{
-    text-decoration: none;
+.nav__sencondary{
+    background: var(--nav-color-secondary);
+}
+.nav__container{
+    color:#FFFFFF;
+    align-items: center;
+    padding: 3px;
+}
+.nav__container li{
+    border-radius: 2px;
+    border: 1px solid transparent;
+   padding: 5px 10px; 
+}
+.nav__container li:hover{
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+ }
+ .nav__logo{
+    border: 1px solid transparent;
+}
+.nav__logo:hover{
+    border: 1px solid #FFFFFF;
+}
+.nav__logo > img{
 }

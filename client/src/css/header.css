@@ -1,0 +1,125 @@
+.main__header {
+    background: var(--nav-color-primary);
+    height: var(--nav-size);
+    color: #FFFFFF;
+    align-items: center;
+}
+.header__right{
+    flex: 1;
+}
+.header__left{
+    flex: 1;
+}
+.logo__container {
+}
+
+.logo__container>img {
+    height: 50px;
+    padding: 10px 20px;
+}
+
+.category__selector__container {
+    height: 40px;
+    width: 50px;
+    background: #DADADA;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid #b8b6b6;
+}
+
+.category__selector__container>span {
+    padding: 5px;
+    color: #000000;
+}
+
+.category__selector__container svg {
+    fill: var(--nav-color-primary);
+    height: 10px;
+    width: 10px;
+}
+
+.category__selector__container>div {}
+
+.location__container {
+    align-items: center;
+}
+
+.location__container svg {
+    fill: #FFFFFF;
+    height: 25px;
+    width: 25px;
+}
+
+.search__container {
+    align-items: center;
+    height: 40px;
+    flex: 2;
+    margin: 0 15px;
+    background-color: #F3A847;
+    border-radius: 5px;
+}
+
+.search__container>input {
+    height: 100%;
+    padding: 5px;
+    font-size: 1.5rem;
+    flex: 1;
+}
+
+.search__container>div {
+    height: 100%;
+    width: 50px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.search__container> div >svg {
+    fill: #393734;
+    height: 20px;
+    width: 20px;
+}
+
+.cart__container {
+}
+
+.cart__container>span>svg {
+    height: 30px;
+    width: 50px;
+}
+
+.language__container {
+    align-items: center;
+}
+
+.language__container>span {}
+
+.language__container>span>svg {
+    height: 30px;
+}
+
+.language__container>.drop__down>svg {
+    height: 10px;
+    width: 10px;
+    fill: #DADADA;
+}
+.acc__list__container{
+    justify-content: center;
+    padding: 5px;
+}
+.return__order__container{
+    padding: 5px;
+}
+.cart__container{
+    padding: 5px;
+}
+.header__hover {
+    border: 1px solid transparent;
+    padding: 5px;
+}
+
+.header__hover:hover {
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    cursor: pointer;
+}

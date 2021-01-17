@@ -1,13 +1,13 @@
 {
   "name": "amazon-full-stack-clone",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "client":"npm start --prefix client",
-    "server":"nodemon server.js",
-    "dev":"concurrently \"npm run server\" \"npm run client\""
+    "client": "npm start --prefix client",
+    "server": "nodemon server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +16,14 @@
     "concurrently": "^5.3.0",
     "express": "^4.17.1",
     "nodemon": "^2.0.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xeot10/Amazon-Full-Stack-Clone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xeot10/Amazon-Full-Stack-Clone/issues"
+  },
+  "homepage": "https://github.com/xeot10/Amazon-Full-Stack-Clone#readme",
+  "description": ""
 }

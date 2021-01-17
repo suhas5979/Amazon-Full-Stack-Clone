@@ -1,0 +1,68 @@
+.signIn__container{
+    align-items: center;
+
+}
+.signIn__container > img{
+    height: 40px;
+    margin: 20px;
+}
+.signIn__container > .signIn__form{
+    border: 1px solid #dddddd ;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 400px;
+}
+.btn__continue{
+    background-image: linear-gradient(#fcdba9,#ffc340);
+    padding: 5px;
+    border: 1px solid #9b9a9a;
+    border-radius: 3px;
+    justify-content: center;
+    margin: 10px 0;
+}
+.signIn__form .conditions{
+    font-size: 14px;
+    margin: 20px 0;
+}
+.email__input{
+    font-size: 18px;
+    padding: 5px;
+    border: 1px solid #9b9a9a;
+    border-radius: 3px;
+    margin: 10px 0;
+    width: 100%;
+}
+.enter__email{
+    font-size: 14px;
+}
+.btn__create{
+    background-image: linear-gradient(#ffffff,#EEEEEE);
+    padding: 5px;
+    border: 1px solid #9b9a9a;
+    border-radius: 3px;
+    justify-content: center;
+    margin: 10px 0;
+    width: 400px;
+}
+.conditions a{
+    color: #0288D1;
+}
+.conditions a:hover{
+    text-decoration: underline;
+    color: #FB8C00;
+}
+.text_through{
+    width: 400px;
+    justify-content: center;
+    margin: 10px 0;
+}
+.text_through:before, .text_through:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid #cecccc;
+    margin: auto;
+}
+#color{
+    
+   color: #ffc340
+}
